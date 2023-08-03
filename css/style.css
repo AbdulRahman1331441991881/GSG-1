@@ -27,4 +27,16 @@ header .header nav ul {
 header .header nav ul li {
   margin: 10px;
   padding: 10px;
+  font-family: fantasy;
+  font-weight:bold;
+  transition: all ease-in-out 1s;
+  -webkit-transition: all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s;
+  -ms-transition: all ease-in-out 1s;
+  -o-transition: all ease-in-out 1s;
+}
+header .header nav ul li:hover,
+header .header nav ul .active {
+    color: #454;
+    background-color:aliceblue;
 }
